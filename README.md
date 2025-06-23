@@ -2,8 +2,11 @@
 Accès https://ephemeral-praline-95cb7d.netlify.app/
 
 stagiaire : 
-git clone https://github.com/catherinejj/calculatorium.git
-git checkout feat/stagiaire
+- git clone https://github.com/catherinejj/calculatorium.git
+- verifier la présence dans le bon dossier (projet)
+- git init (si nécéssaire)
+- npm install
+- git checkout feat/stagiaire
 
 Une calculatrice moderne et élégante développée avec Vue.js 3 et Vite, sans dépendances externes.
 
