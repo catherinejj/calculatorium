@@ -5,13 +5,7 @@
         <div class="display-text">{{ displayValue }}</div>
       </div>
       
-      <div class="buttons">
-        <!-- Première ligne -->
-        <button class="btn btn-clear" @click="clearAll">AC</button>
-        <button class="btn btn-clear" @click="clearEntry">C</button>
-        <button class="btn btn-operator" @click="inputOperator('/')" :class="{ active: operator === '/' }">÷</button>
-        <button class="btn btn-operator" @click="inputOperator('*')" :class="{ active: operator === '*' }">×</button>
-        
+   
         <!-- Deuxième ligne -->
         <button class="btn btn-number" @click="inputNumber('7')">7</button>
         <button class="btn btn-number" @click="inputNumber('8')">8</button>
