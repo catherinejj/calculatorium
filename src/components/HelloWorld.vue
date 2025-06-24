@@ -1,5 +1,7 @@
 <script setup>
-const theme = window.innerWidth
+mounted(){
+  const screen = window.innerWidth
+}
 import { ref } from 'vue'
 
 defineProps({
