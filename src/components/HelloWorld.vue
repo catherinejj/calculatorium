@@ -1,4 +1,7 @@
 <script setup>
+mounted(){
+  const screen = window.innerWidth
+}
 import { ref } from 'vue'
 
 defineProps({
