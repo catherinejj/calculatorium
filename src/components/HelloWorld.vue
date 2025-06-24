@@ -1,4 +1,5 @@
 <script setup>
+const theme = window.innerWidth
 import { ref } from 'vue'
 
 defineProps({

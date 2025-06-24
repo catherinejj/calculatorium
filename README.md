@@ -1,3 +1,25 @@
+# Comment transferer Dev dans QA 
+Dans le but de mettre a disposition les résultat des modification en DEV on va :
+
+1- Appuyer sur pull Request
+
+![Capture d’écran 2025-06-24 153930](./readme_assets/a.png)
+
+2- Choisir les branches à réunir
+![Capture d’écran 2025-06-24 153930](./readme_assets/b.png)
+
+3- Il passe les tests
+![Capture d’écran 2025-06-24 153930](./readme_assets/d.png)
+
+4- On confirme
+![Capture d’écran 2025-06-24 153930](./readme_assets/e.png)
+
+5- That's done !
+![Capture d’écran 2025-06-24 153930](./readme_assets/f.png)
+
+On voit directement les changements dans Netlify.
+
+
 # Calculatrice Simple Vue.js
 Accès https://ephemeral-praline-95cb7d.netlify.app/
 
