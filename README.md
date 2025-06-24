@@ -12,7 +12,7 @@ Accès https://ephemeral-praline-95cb7d.netlify.app/
 - **Gestion d'erreurs** : Protection contre la division par zéro
 - **Fonctions clear** : AC (All Clear) et C (Clear Entry)
 
-## 🛠️ Technologies utilisées
+## 🛠️Technologies utilisées
 
 - **Vue.js 3** - Framework JavaScript progressif
 - **Vite** - Outil de build rapide
