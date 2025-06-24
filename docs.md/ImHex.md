@@ -1,4 +1,4 @@
-Nom du projet : ImHex
+git fetch Nom du projet : ImHex
 Auteur principal : WerWolv
 Lien vers le repos : 
 https://github.com/WerWolv/ImHex
