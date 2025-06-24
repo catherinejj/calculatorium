@@ -1,0 +1,31 @@
+name: Bump version and changelog
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  bump-version:
+    if: "!startsWith(github.event.head_commit.message, 'bump:')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+ 
+      - name: Install Commitizen
+        run: pip install commitizen
+ 
+      - name: Bump version and generate changelog
+        uses: commitizen-tools/commitizen-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+ 
+      - name: Print new version
