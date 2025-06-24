@@ -45,7 +45,6 @@ const currentValue = ref('0')
 const previousValue = ref(null)
 const operator = ref(null)
 const waitingForNewValue = ref(false)
-
 const displayValue = computed(() => {
   if (currentValue.value.length > 12) {
     return parseFloat(currentValue.value).toExponential(6)
