@@ -20,7 +20,7 @@
 - cache
 
 ### Utilisation de tags pour le versionning
-[Lien page release](https://github.com/evanw/esbuild/releases/tag/v0.25.5)
+[Lien page release](https://github.com/evanw/esbuild/tags)
 
 ### Intégration de CI 
 Test end to end :
