@@ -39,3 +39,7 @@ Ces tags sont associés à des archives (.zip ou .tar.gz) qui permettent de tél
    Le fichier CODEOWNERS définit les personnes responsables de certaines parties du code. Elles ont le droit d’approuver ou de valider les modifications dans les fichiers qu’elles supervisent.
 
 Le fichier CONTRIBUTING.md explique comment contribuer au projet, les bonnes pratiques à suivre, et donne des liens vers la documentation officielle de Flutter.
+
+## Conclution :
+
+En conclusion, dans flutter less etapes pour soriti une nouvelles version c'est : clean_todo, puis les tests, puis stable et enfin la version final avec le tag correspondant a ce qui sort ( selon majeur pour mineur) en realese. Lorsque le version est bien validé en passe en Tag normal.
