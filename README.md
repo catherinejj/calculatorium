@@ -1,15 +1,6 @@
 # Calculatrice Simple Vue.js
 Accès https://ephemeral-praline-95cb7d.netlify.app/
 
-stagiaire : 
-- git clone https://github.com/catherinejj/calculatorium.git
-- verifier la présence dans le bon dossier (projet)
-- git init (si nécéssaire)
-- npm install
-- git checkout feat/stagiaire
-
-Une calculatrice moderne et élégante développée avec Vue.js 3 et Vite, sans dépendances externes.
-
 ## 🚀 Fonctionnalités
 
 - **Opérations de base** : Addition (+), Soustraction (−), Multiplication (×), Division (÷)
@@ -32,7 +23,7 @@ Une calculatrice moderne et élégante développée avec Vue.js 3 et Vite, sans 
 
 1. Clonez le repository :
 ```bash
-git clone <votre-repo-url>
+git clone https://github.com/catherinejj/calculatorium.git
 cd calculatrice-vue
 ```
 
