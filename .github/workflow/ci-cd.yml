@@ -1,0 +1,64 @@
+name: CI-CD Pipeline
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+  pull_request:
+    branches:
+      - dev
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Lint code
+        run: npm run lint
+
+  deploy-staging:
+    if: github.ref == 'refs/heads/dev' && success()
+    runs-on: ubuntu-latest
+    needs: build-and-test
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to staging
+        run: |
+          echo "Déploiement automatique sur staging..."
+          # Ici tu ajoutes tes commandes de déploiement (ex: Netlify, Vercel, SSH, etc.)
+
+  deploy-production:
+    if: github.ref == 'refs/heads/main' && success()
+    runs-on: ubuntu-latest
+    needs: build-and-test
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to production
+        run: |
+          echo "Déploiement automatique sur production..."
+          # Ici tu ajoutes tes commandes de déploiement
+
+      - name: Notify deploy success
+        run: echo "Déploiement en production terminé avec succès"
