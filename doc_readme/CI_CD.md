@@ -15,6 +15,7 @@
 - Après succès du CI, build automatique de l’application
 - Déploiement automatique sur l’environnement **qa** après fusion sur `dev`
 - Déploiement en production après validation manuelle et fusion sur `main`
+> En cas d'echec de build, la derniere version fonctionnelle sera conservée.
 
 ### Environnements de déploiement
 
