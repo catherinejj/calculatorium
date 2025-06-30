@@ -8,7 +8,7 @@
 | 4. Urls                  | URLs des environnements (local, staging, dev,qa,main)         | [Voir Urls](./doc_readme/Urls.md)                             |
 | 5. Modèle GitHub Actions | Exemple de workflow automatisé pour CI/CD                     | [Voir GitHub Actions](./.github/)                             |
 | 6. Projets collaboratifs | Analyse de différents projets collaboratifs sur GitHub        | [Voir GitHub collaborators projects](./inspire.md/)  
-| 7. Securité | Consignes de sécurités et bonnes pratiques        | [Voir Security](./SECURITY.md/)  
+| 7. Securité | Consignes de sécurités et bonnes pratiques        | [Voir Security](./doc_readme/SECURITY.md/)  
 
 # Changelog: [Voir Changelog](./doc_readme/CHANGELOG.md)         |
 
