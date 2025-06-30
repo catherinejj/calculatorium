@@ -29,7 +29,7 @@ En cas d’erreur, corrigez localement et poussez une nouvelle version sur dev.
 4. Fusionner la Pull Request
    Une fois les tests validés, cliquez sur Merge Pull Request pour fusionner dev dans qa.
 
-![Capture d’écran 2025-06-24 153930](./readme_assets/e.png)
+![Capture d’écran 2025-06-24 153930](../readme_assets/e.png)
 
 Choisissez la méthode de fusion (merge commit, squash, rebase) selon les conventions de votre projet.
 
