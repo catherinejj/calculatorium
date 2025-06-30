@@ -11,7 +11,7 @@
 Versions :
 |-----------------------------------|
 |The new dev broke the code :| V1.0.0|
-Mise en place des permissions pour les développeurs débutant :| 1.1.0
+|Mise en place des permissions pour les développeurs débutant :| 1.1.0|
 
 
 # Calculatrice Simple Vue.js
