@@ -19,6 +19,8 @@
 
 > main: Branche de production stable, déployée en ligne pour les utilisateurs.
 
+A noter que par convention, la documentation de Netlify nous offre des ulrs dédiées pour les brachnes qui ne sont pas en prod. 
+
 Exemple de commandes typiques
 
 ```bash
