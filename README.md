@@ -7,9 +7,11 @@
 | 3. CI/CD                 | Description du processus d’intégration et déploiement continu | [Voir CI/CD](./doc_readme/CI_CD.md)                           |
 | 4. Urls                  | URLs des environnements (local, staging, dev,qa,main)         | [Voir Urls](./doc_readme/Urls.md)                             |
 | 5. Modèle GitHub Actions | Exemple de workflow automatisé pour CI/CD                     | [Voir GitHub Actions](./.github/)                             |
-| 6. Projets collaboratifs | Analyse de différents projets collaboratifs sur GitHub        | [Voir GitHub collaborators projects](./inspire.md/)           |
+| 6. Projets collaboratifs | Analyse de différents projets collaboratifs sur GitHub        | [Voir GitHub collaborators projects](./inspire.md/)  
+| 7. Securité | Consignes de sécurités et bonnes pratiques        | [Voir Security](./SECURITY.md/)  
 
-# Changelog: 
+# Changelog: [Voir Changelog](./doc_readme/CHANGELOG.md)         |
+
 # Calculatrice Simple Vue.js
 
 Accès https://calculatorium-ynov.netlify.app/
