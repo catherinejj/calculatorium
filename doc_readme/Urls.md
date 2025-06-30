@@ -1,4 +1,4 @@
-1. URLs des environnements
+**1. URLs des environnements**
    |Environnement| URL |Description|
    |-------------|----|-------------|
    | Local| http://localhost:5173| Environnement de développement sur ta machine locale|
@@ -7,7 +7,7 @@
    | Qa| https://qa--calculatorium-ynov.netlify.app/ |Environnement de QA|
    |Production| https://calculatorium-ynov.netlify.app/ |Environnement en ligne accessible aux utilisateurs finaux|
 
-2. Workflow Git utilisé
+**2. Workflow Git utilisé**
 
    Pour organiser le développement et éviter les erreurs, on utilise plusieurs branches :
 
@@ -55,7 +55,7 @@ git merge staging
 git push origin main
 ```
 
-3. Situations où ça fonctionne en local mais pas en ligne
+**3. Situations où ça fonctionne en local mais pas en ligne**
 
 3.1 Description du problème
 Parfois, ton application marche parfaitement sur ta machine (local), mais quand tu la déploies en ligne (staging ou prod), elle ne fonctionne pas ou s’affiche mal (ex : page blanche, erreurs).
@@ -92,7 +92,7 @@ S’assurer que les fichiers générés correspondent à la dernière version.
 Tester en staging avant production
 Détecter les erreurs en amont.
 
-5. Remarques et bonnes pratiques
+**4. Remarques et bonnes pratiques**
    Toujours tester en local avant de déployer.
 
 Documenter chaque problème rencontré et comment tu l’as résolu (utile pour toi et l’équipe).
