@@ -3,7 +3,7 @@
 | Section                  | Description                                                   | Lien                                                          |
 | ------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------- |
 | 1. Installation          | Comment cloner le projet et lancer l’application              | [Voir Installation](./doc_readme/Instalation.md)              |
-| 2. Transfere de branches | Comment passer de dev à qa (par exemple)                      | [Voir Transfere de branches](./doc_readme/Transfer_branch.md) |
+| 2. Transfert de branches | Comment passer de dev à qa (par exemple)                      | [Voir Transfere de branches](./doc_readme/Transfer_branch.md) |
 | 3. CI/CD                 | Description du processus d’intégration et déploiement continu | [Voir CI/CD](./doc_readme/CI_CD.md)                           |
 | 4. Urls                  | URLs des environnements (local, staging, dev,qa,main)         | [Voir Urls](./doc_readme/Urls.md)                             |
 | 5. Modèle GitHub Actions | Exemple de workflow automatisé pour CI/CD                     | [Voir GitHub Actions](./.github/)                             |
