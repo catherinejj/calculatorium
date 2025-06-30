@@ -1,4 +1,8 @@
 # Changelog - Historique des versions de CALCULATORIUM
+## [3.0.0] - 2025-06-30
+- **Mise en place des consignes de sécurité**
+
+---
 
 ## [2.1.0] - 2025-06-24
 ### ✅ Added (Documentations)
