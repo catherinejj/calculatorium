@@ -40,7 +40,7 @@ Choisissez la méthode de fusion (merge commit, squash, rebase) selon les conven
 
 `Vérifiez les modifications directement en ligne.`
 
-````Bonnes pratiques
+```Bonnes pratiques
 Rédigez un titre clair et une description complète dans la Pull Request.
 
 Utilisez les commentaires pour faciliter la revue par vos collègues.
@@ -50,4 +50,4 @@ Ne fusionnez pas si des tests échouent ou s’il y a des conflits.
 Surveillez le pipeline CI/CD pour détecter rapidement les erreurs.
 
 Communiquez tout problème rencontré dans l’outil de ticketing.```
-````
+```
