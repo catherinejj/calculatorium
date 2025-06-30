@@ -8,12 +8,7 @@
 | 4. Urls                  | URLs des environnements (local, staging, dev,qa,main)         | [Voir Urls](./doc_readme/Urls.md)                             |
 | 5. Modèle GitHub Actions | Exemple de workflow automatisé pour CI/CD                     | [Voir GitHub Actions](./.github/)                             |
 
-Versions :
-|-----------------------------------|
-|The new dev broke the code :| V1.0.0|
-|Mise en place des permissions pour les développeurs débutant :| 1.1.0|
-
-
+# Changelog: 
 # Calculatrice Simple Vue.js
 
 Accès https://calculatorium-ynov.netlify.app/
