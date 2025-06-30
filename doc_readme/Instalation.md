@@ -66,7 +66,8 @@ git commit -m "Feat:Description claire de ce que tu as fait"
 git push origin mon-nom-branche
 ```
 
-4. Créer une Pull Request
+4. Créer une Pull Request.
+   
    Sur GitHub, crée une Pull Request de ta branche vers dev pour que l’équipe puisse relire et valider ton travail.
 
 > Astuce : Mettre à jour ta branche régulièrement
