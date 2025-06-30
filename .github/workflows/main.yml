@@ -23,10 +23,7 @@ jobs:
       - name: Install Commitizen
         run: pip install commitizen
 
-      - name: Bump version and generate changelog
-        uses: commitizen-tools/commitizen-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Print new version
         run: cz version
