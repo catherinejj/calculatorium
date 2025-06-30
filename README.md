@@ -1,5 +1,17 @@
+# Sommaire
+
+| Section                  | Description                                                   | Lien                                                          |
+| ------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| 1. Installation          | Comment cloner le projet et lancer l’application              | [Voir Installation](./doc_readme/Instalation.md)              |
+| 2. Transfert de branches | Comment passer de dev à qa (par exemple)                      | [Voir Transfere de branches](./doc_readme/Transfer_branch.md) |
+| 3. CI/CD                 | Description du processus d’intégration et déploiement continu | [Voir CI/CD](./doc_readme/CI_CD.md)                           |
+| 4. Urls                  | URLs des environnements (local, staging, dev,qa,main)         | [Voir Urls](./doc_readme/Urls.md)                             |
+| 5. Modèle GitHub Actions | Exemple de workflow automatisé pour CI/CD                     | [Voir GitHub Actions](./.github/)                             |
+
+# Changelog: 
 # Calculatrice Simple Vue.js
-Accès https://ephemeral-praline-95cb7d.netlify.app/
+
+Accès https://calculatorium-ynov.netlify.app/
 
 ## 🚀 Fonctionnalités
 
@@ -19,45 +31,29 @@ Accès https://ephemeral-praline-95cb7d.netlify.app/
 - **CSS3** - Styles modernes avec gradients et animations
 - **JavaScript ES6+** - Logique de calcul native
 
-## 📦 Installation
-
-1. Clonez le repository :
-```bash
-git clone https://github.com/catherinejj/calculatorium.git
-cd calculatrice-vue
-```
-
-2. Installez les dépendances :
-```bash
-npm install
-```
-
-3. Lancez le serveur de développement :
-```bash
-npm run dev
-```
-
-4. Ouvrez votre navigateur à l'adresse : `http://localhost:5173`
-
 ## 🎯 Utilisation
 
 ### Opérations de base
+
 - Cliquez sur les chiffres (0-9) pour saisir des nombres
 - Utilisez les opérateurs (+, −, ×, ÷) pour effectuer des calculs
 - Appuyez sur "=" pour obtenir le résultat
 - Utilisez "." pour les nombres décimaux
 
 ### Fonctions de contrôle
+
 - **AC** : Efface tout et remet la calculatrice à zéro
 - **C** : Efface uniquement la saisie en cours
 
 ### Gestion des erreurs
+
 - La division par zéro affiche une alerte et remet la calculatrice à zéro
 - Les résultats très longs sont affichés en notation scientifique
 
 ## 🎨 Design
 
 La calculatrice présente un design moderne avec :
+
 - **Fond dégradé** : Violet-bleu élégant
 - **Boîtier noir** : Style calculatrice professionnelle
 - **Écran LCD** : Affichage vert phosphorescent authentique
@@ -70,6 +66,7 @@ La calculatrice présente un design moderne avec :
 ## 📱 Responsive
 
 La calculatrice s'adapte automatiquement aux différentes tailles d'écran :
+
 - **Desktop** : Taille optimale avec tous les effets
 - **Mobile** : Interface compacte et boutons adaptés au tactile
 
@@ -98,6 +95,7 @@ src/
 ## 🤝 Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
+
 1. Fork le projet
 2. Créer une branche pour votre fonctionnalité
 3. Commiter vos changements
