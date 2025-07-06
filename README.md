@@ -1,3 +1,10 @@
+# Liste des participants
+-Nina Guiguet
+-Catherine Jules
+-Angie Pons
+-Julien Vaglia
+-Ludovic Andreotti
+
 # Sommaire
 
 | Section                  | Description                                                   | Lien                                                          |
