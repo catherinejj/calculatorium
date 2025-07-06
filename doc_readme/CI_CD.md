@@ -31,3 +31,9 @@
 - Toujours vérifier que les tests passent avant de fusionner
 - Documenter toute anomalie rencontrée dans un ticket GitHub
 - Communiquer avec l’équipe en cas de problème
+
+
+### Un exemple d'erreur que nous avons créé volontairment pour un exercice
+Un exemple d'erreur generée volontairement pour l'exercice
+
+![Capture d’écran des issues](../readme_assets/erreur-calculatorium-developpement-continu.png)
